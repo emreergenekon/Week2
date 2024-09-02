@@ -1,0 +1,107 @@
+main{
+
+    flex: 1;
+    padding: 20px;
+}
+
+body {
+background-color: black;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
+}
+
+nav {
+    background-color: rgb(237, 237, 237);
+    height: 30px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color:rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    }
+
+    nav ul {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    nav ul li {
+        margin-left: 20px; 
+        align-items:baseline;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+
+.texts h1{
+color: whitesmoke;
+text-align:right;
+text-decoration: underline;
+text-transform: capitalize;
+font-family: 'Times New Roman', Times, serif;
+position: relative;
+}
+
+.texts h2{
+    color: whitesmoke;
+    text-align:right;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    height: auto;
+    }
+
+    .footer-yazar {
+        background-color: rgb(237, 237, 237);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        font-style: italic;
+        text-align: center;
+        padding: 10px 20px; 
+        margin-top: auto;
+        }
+
+        .content p{
+            color: whitesmoke;
+            margin: 0;
+            flex: 1;
+            font-weight: 200;
+            width: 400;
+            height: auto;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            
+            }
+
+            .content{
+                display: flex;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .content img {
+                margin-right: 20px;
+                
+            }
+
+            .BookList ul li{
+font-family: 'Times New Roman', Times, serif;
+text-align: left;
+text-transform: capitalize;
+font-weight: 10;
+font-size:xx-large;
+color: white;
+}
+
+.BookTitle{
+color: white;
+padding: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
