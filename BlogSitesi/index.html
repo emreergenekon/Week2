@@ -5,37 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bisiklet Dünyası</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
 <header>
-<nav>
-    <h1>Bisiklet Dünyası</h1>
-<ul>
-<li><a href="index.html">Ana Sayfa</a></li>
-<li><a href="post.html">Gönderiler</a></li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Bisiklet Dünyası</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+            <li class="nav-item"><a class="nav-link" href="post.html">Gönderiler</a></li>
+        </ul>
+    </div>
 </nav>
 </header>
 
-<div class="container">
+<div class="jumbotron text-center">
+    <h1 class="display-4">Bisiklet Dünyası'na Hoş Geldin!</h1>
+    <p class="lead">Bisikletlere dair aradığın her şeyi senin için burada topladık.</p>
+</div>
 
-<div class="blog1"></div>
-<img src="dag.bisikleti.jpg" alt="Dag Bisikleti" width="400" height="400">  
-<h1>Dağ Bisikletleri</h1>  
-<p>Dağ bisikletleri hakkında bilmeniz gerekenler.</p>
+<div class="container mt-4">
+    <div class="row justify-content-center">
+      <!-- İlk Blog Kartı -->
+      <div class="col-md-5 mb-4">
+        <div class="card h-100">
+          <img src="dag.bisikleti.jpg" class="card-img-top img-fixed-size" alt="Dag Bisikleti">
+          <div class="card-body">
+            <h2 class="card-title">Dağ Bisikletleri</h2>
+            <p class="card-text">Dağ bisikletleri hakkında bilmeniz gerekenler.</p>
+          </div>
+        </div>
+      </div>
 
-<div class="blog2"></div>
-<img src="city.bike.jpg" alt="Sehir Bisikleti" width="400" height="400">  
-<h1>Şehir Bisikletleri</h1>   
-<p>Şehir bisikletleri hakkında bilmeniz gerekenler.</p>
+      <!-- İkinci Blog Kartı -->
+      <div class="col-md-5 mb-4">
+        <div class="card h-100">
+          <img src="city.bike.jpg" class="card-img-top img-fixed-size" alt="Sehir Bisikleti">
+          <div class="card-body">
+            <h2 class="card-title">Şehir Bisikletleri</h2>
+            <p class="card-text">Şehir bisikletleri hakkında bilmeniz gerekenler.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 
 <footer>
-<div class="footer-bottom">
-    <p>Tüm hakları saklıdır ©2024</p>
-</div>
+    <div class="footer-bottom text-center mt-4">
+        <p>Tüm hakları saklıdır ©2024</p>
+    </div>
+</footer>
 
-    
 </body>
 </html>
